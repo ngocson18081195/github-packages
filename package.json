@@ -1,5 +1,5 @@
 {
-  "name": "typescript-package-starter",
+  "name": "github-packages",
   "version": "1.0.1",
   "description": "TypeScript boilerplate for NPM or Github Packages",
   "main": "dist/index.js",
@@ -19,7 +19,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dalenguyen/typescript-package-starter.git"
+    "url": "git+https://github.com/ngocson18081195/github-packages.git"
   },
   "devDependencies": {
     "@types/chai": "^4.2.2",
@@ -36,6 +36,6 @@
     "node": ">=8"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/@ngocson18081195"
   }
 }
