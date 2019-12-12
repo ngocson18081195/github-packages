@@ -1,3 +1,3 @@
 export const helloWorld = () => {
-    return 'Howdy123!'
+    return 'Howdy!'
 }
