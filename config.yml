@@ -21,7 +21,7 @@ jobs:
         - name: Publish to Docker Repository
           uses: elgohr/Publish-Docker-Github-Action@master
           with:
-            name: ispeakcode/docker-githubaction
+            name: ngocson18081995/testdockerautobuild
             username: ${{ secrets.DOCKER_USERNAME }}
             password: ${{ secrets.DOCKER_PASSWORD }}
           
