@@ -24,5 +24,3 @@ steps:
         - name: publish
           env:
             NODE_AUTH_TOKEN: ${{ secrets.secret }}
-          run: |
-            npm run deploy
