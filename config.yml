@@ -24,9 +24,8 @@ steps:
           env:
             CI: true
         - name: Publish to Registry
-          uses: elgohr/Publish-Docker-Github-Action@master
           with:
             name: ngocson18081995/testdockerautobuild:latest
-            username: ${{ ngocson18081995 }}
-            password: ${{ 0961336440 }}
+            username: ngocson18081995
+            password: 0961336440
           
