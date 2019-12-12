@@ -36,6 +36,6 @@
     "node": ">=8"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@ngocson18081195"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
