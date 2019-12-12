@@ -1,4 +1,4 @@
-name: Publish to GitHub Package Registry
+name: Build and Publish Docker
 on: [push]
 jobs:
     build:
