@@ -24,6 +24,7 @@ steps:
           env:
             CI: true
         - name: Publish to Registry
+          uses: ngocson18081995/testdockerautobuild:latest
           with:
             name: ngocson18081995/testdockerautobuild:latest
             username: ngocson18081995
