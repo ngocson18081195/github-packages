@@ -4,8 +4,8 @@ on: [push]
 
 jobs:
   deploy:
-     runs-on: self-hosted
+     runs-on: DESKTOP-1HEJCVU
      steps:
      - uses: actions/checkout@v1
      - name: Test docker
-       run: docker ps
+       run: docker ps -a
