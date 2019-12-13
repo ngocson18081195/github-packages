@@ -31,3 +31,11 @@ jobs:
         name: ngocson18081995/docker-node:01
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
+  deploy:
+    runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v1
+    - name: Test docker
+      run: ssh DELL@192.168.68.107
+      with:
+        password: 123
