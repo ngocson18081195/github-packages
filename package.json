@@ -7,7 +7,7 @@
   "scripts": {
     "test": "mocha --timeout 60000 --exit -r ts-node/register test/**/*.spec.ts",
     "build": "tsc",
-    "deploy": "ifconfig"
+    "deploy": "ping 13.114.31.118"
   },
   "keywords": [
     "typescript",
