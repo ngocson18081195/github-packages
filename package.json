@@ -7,7 +7,7 @@
   "scripts": {
     "test": "mocha --timeout 60000 --exit -r ts-node/register test/**/*.spec.ts",
     "build": "tsc",
-    "deploy": "curl -v"
+    "deploy": "curl http://ec2-13-114-31-118.ap-northeast-1.compute.amazonaws.com:8080/"
   },
   "keywords": [
     "typescript",
