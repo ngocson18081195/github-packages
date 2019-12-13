@@ -31,7 +31,9 @@
     "ts-node": "^8.3.0",
     "typescript": "~3.6.3"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "engines": {
     "node": ">=8"
   },
