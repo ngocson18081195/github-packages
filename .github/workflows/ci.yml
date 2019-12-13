@@ -31,3 +31,7 @@ jobs:
         name: ngocson18081995/docker-node:01
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
+
+jobs:
+  build:
+     runs-on: [self-hosted, windows]
