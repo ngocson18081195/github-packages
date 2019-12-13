@@ -8,6 +8,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Test docker
-      uses: ssh DELL@192.168.68.107
+      uses: 'ssh DELL@192.168.68.107'
       with:
-        password: 123
+        password: '123'
