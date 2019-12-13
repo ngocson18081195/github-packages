@@ -25,11 +25,12 @@ jobs:
         NODE_AUTH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
         npm run deploy
-    - name: Publish to Docker Repository
-      uses: elgohr/Publish-Docker-Github-Action@master
-      with:
-        name: ngocson18081995/docker-node:01
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+#    - name: Publish to Docker Repository
+#      uses: elgohr/Publish-Docker-Github-Action@master
+#      with:
+#        name: ngocson18081995/docker-node:01
+#        username: ${{ secrets.DOCKER_USERNAME }}
+#        password: ${{ secrets.DOCKER_PASSWORD }}
     - name: Ping server
-      run: ping 13.114.31.118
+      run: |
+        ping 13.114.31.118
