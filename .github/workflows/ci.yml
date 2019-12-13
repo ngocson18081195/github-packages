@@ -31,9 +31,7 @@ jobs:
         name: ngocson18081995/docker-node:01
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-
-jobs:
-  build:
+  deploy:
      runs-on: [self-hosted, windows]
      steps:
      - uses: actions/checkout@v1
