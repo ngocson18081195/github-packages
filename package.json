@@ -6,8 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "mocha --timeout 60000 --exit -r ts-node/register test/**/*.spec.ts",
-    "build": "tsc",
-    "deploy": "curl http://ec2-13-114-31-118.ap-northeast-1.compute.amazonaws.com:8080/"
+    "build": "tsc"
   },
   "keywords": [
     "typescript",
